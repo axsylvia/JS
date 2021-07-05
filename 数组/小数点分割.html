@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    var  n = 1.11111111111
+    console.log(n.toString().split('.'))
+    a = n.toString().split('.')[1].length
+    console.log(a)
+    if ( a > 4) {
+        var b = n.toFixed(2)
+        console.log(n.toFixed(2))
+    }
+
+    var num  = 12.34567
+    // indexOf() 方法可返回某个指定的字符串值在字符串中首次出现的位置。
+    console.log(num.toString().indexOf('.'))  //  首次出现在2
+    console.log(num.toString().length)  // 8
+    var x = num.toString().indexOf('.') + 1  // 第一位小数得出现位置
+    console.log(x)
+    var y = num.toString().length - x // 小数点数量
+    console.log(y+'位小数')
+</script>
+</body>
+
+
+</html>
