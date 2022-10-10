@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    let lessons = [
+        { title: "a" ,category:"english" },
+        { title: "b" ,category:"english" },
+        { title: "阿里嘎多" ,category:"日语" },
+    ]
+    const englishlessons = lessons.filter(function(lesson){
+        return lesson["category"] == "english"
+    })
+    console.table(englishlessons);
+</script>
+</body>
+
+
+</html>
